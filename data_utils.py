@@ -4,7 +4,7 @@ import pickle
 import sys
 
 photo_features = {}
-
+photo_feature_dir = './data/features_phtoto'
 MEAN = np.load(os.path.join(photo_feature_dir, 'mean.npy'))
 
 with open('./data/dicts.pkl', 'rb') as f:
